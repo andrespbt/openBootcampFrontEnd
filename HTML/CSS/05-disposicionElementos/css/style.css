@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100vh;
+    justify-content: center;
+    overflow:auto;
+    padding: 30px;
+    width:100vw;
+}
+
+.imagen-galeria {
+    width: 300px;
+    height: 30vh;
+}
