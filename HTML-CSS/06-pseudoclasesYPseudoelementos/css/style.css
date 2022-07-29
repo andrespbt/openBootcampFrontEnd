@@ -1,0 +1,25 @@
+
+button {
+    display: block;
+    height: 100px;
+    width: 300px;
+    margin: 250px auto;
+    color: #000;
+}
+
+button span::before{
+    content: "Pasa por encima";
+}
+
+button:hover {
+
+    background-color: #00FF00;
+    color: #FFF;
+}
+
+button:hover span::before {
+
+    content: none;
+    content: "Hecho!";
+    font-size: 1rem;
+}
