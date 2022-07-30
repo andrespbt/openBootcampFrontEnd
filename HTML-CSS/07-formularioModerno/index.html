@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, max-scale=1.0"
+    />
+    <title>Formulario Moderno</title>
+    <script
+      src="https://kit.fontawesome.com/edb153b2a5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="formContainer">
+        <div class="formHeader">
+          <h1>Sign up to Dribbble</h1>
+          <div class="btnsHeader">
+            <div class="btnGoogle">
+              <button>Registrarse con Google</button>
+              <img src="img/logoGoogle.png" alt="logo-google" id="logoGoogle" />
+            </div>
+            <div>
+              <button class="btnTwitter">
+                <i class="fa-brands fa-twitter"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="dividerContainer">
+          <hr class="divider" />
+          <span class="textDivider">Or</span>
+          <hr class="divider" />
+        </div>
+
+        <div class="formBody">
+          <div class="namesUser">
+            <label for="name" action="" class="namesLabel">
+              <span class="spanInput">Name</span>
+              <input type="text" name="name" id="name" />
+            </label>
+            <label for="userName" action="" class="namesLabel">
+              <span class="spanInput">Username</span>
+              <input type="text" name="userName" id="userName" />
+            </label>
+          </div>
+          <label for="email" action="">
+            <span class="spanInput">Email</span>
+            <input type="email" name="email" id="email" />
+          </label>
+          <label for="password" action="">
+            <span class="spanInput">Password</span>
+            <input type="password" name="password" id="password" />
+          </label>
+        </div>
+        <div class="formFooter">
+          <fieldset class="termsField">
+            <input type="checkbox" name="terms" id="terms" />
+            <label for="terms">
+              Creating an account means you're okay with our
+              <a href="https://dribbble.com/terms"
+                >Terms of Service, Privacy Policy,</a
+              >
+              and our default
+              <a href="https://dribbble.com/notifications"
+                >Notification Settings.</a
+              >
+            </label>
+          </fieldset>
+          <button type="submit">Create Account</button>
+          <span
+            >Already a member?
+            <a href="https://dribbble.com/session/new">Sign in</a></span
+          >
+
+          <p class="policyText">
+            This site is protected by reCAPTCHA and the Google
+            <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+            <a href="https://policies.google.com/terms">Terms of Service</a>
+            apply
+          </p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
