@@ -301,11 +301,21 @@ span > a {
     input {
         background-color: #212121;
         width: 389px;
+        color: white;
     }
 
     input:hover {
         background-color: #454045;
     }
+    
+    input:active {
+        background-color: #454045;
+    }
+
+    input:focus {
+        background-color: #454045;
+    }
+
 
     form {
         color: #FFF;
