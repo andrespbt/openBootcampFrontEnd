@@ -1,0 +1,379 @@
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0075FF;
+  color: white;
+  border: none;
+  border: 1px solid #0075FF;
+  height: 37px;
+  margin: 0.1rem;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075FF;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #000;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+}
+.main-menu li {
+  font-size: 0.75rem;
+  list-style: none;
+  display: inline;
+  margin: 0 0.5rem;
+}
+.main-menu a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm {
+  font-size: 0.75rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+}
+.icon-sm i {
+  color: #0075FF;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.feature .description {
+  height: 100px;
+}
+.feature .description .title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.feature .cta {
+  color: #0075FF;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.icon-desc .icon {
+  padding: 0;
+  color: #0075FF;
+  font-size: 10rem;
+  text-align: center;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  padding: 6rem 6rem 2rem 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.sec-call-to-action {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 900px;
+}
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem 4rem;
+}
+.cta-left a {
+  text-decoration: none;
+}
+.cta-left a span {
+  color: #0075FF;
+}
+.cta-left h2 {
+  font-size: 4rem;
+}
+.cta-left p {
+  font-weight: 600;
+}
+.cta-left input {
+  width: 60%;
+  display: inline;
+  margin-right: 1rem;
+  max-width: 270px;
+}
+.cta-left input::placeholder {
+  color: #BABBBB;
+}
+
+.sec-features {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-header h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.features-header p {
+  color: #a2a2a2;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.features-body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.features-body #features-list {
+  list-style: none;
+}
+.features-body li h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.features-body li p {
+  color: #676667;
+  padding-right: 3rem;
+  font-weight: 200;
+}
+
+#elemento1 {
+  position: relative;
+}
+
+#elemento1::before {
+  content: url(../assets/statistic-icon.svg);
+  position: absolute;
+  left: -70px;
+  top: 0px;
+}
+
+#elemento2 {
+  position: relative;
+}
+
+#elemento2::before {
+  content: url(../assets/calendar-icon.svg);
+  position: absolute;
+  left: -70px;
+  top: 0px;
+}
+
+#elemento3 {
+  position: relative;
+}
+
+#elemento3::before {
+  content: url(../assets/mobile-icon.svg);
+  position: absolute;
+  left: -70px;
+  top: 0px;
+}
+
+#separator {
+  color: #D9D9D9;
+  border: 1px solid #D9D9D9;
+}
+
+.sec-benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 4rem 2rem 4rem;
+  gap: 4rem;
+}
+
+.benefits-header {
+  text-align: center;
+}
+.benefits-header h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.benefits-header p {
+  color: #a2a2a2;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.benefits-body {
+  display: flex;
+  justify-content: space-between;
+}
+.benefits-body a {
+  text-decoration: none;
+}
+.benefits-body article {
+  max-width: 30%;
+}
+
+.sec-kpis {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin: 4rem 0;
+  height: 210px;
+  background-color: #0075FF;
+  color: #FFF;
+}
+.sec-kpis div .kpis-number {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0;
+}
+.sec-kpis div .kpis-description {
+  font-size: 0.8rem;
+  font-size: 100;
+}
+
+.sec-onboarding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.onboarding-header h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.onboarding-header p {
+  color: #a2a2a2;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.onboarding-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+#fntawesome-icon {
+  height: 96px;
+  width: 194px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#fntawesome-icon i {
+  margin-top: 1rem;
+}
+
+.sec-footer-cta {
+  background-color: #F4F7FE;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0rem 4rem 3rem;
+  position: relative;
+}
+.sec-footer-cta .footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3rem;
+  margin: 0 40% 0 0;
+  gap: 2rem;
+}
+.sec-footer-cta .footer-text h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-align: left;
+}
+.sec-footer-cta .footer-text p {
+  color: #a2a2a2;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#footer-image {
+  height: 60%;
+  max-height: 250px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
