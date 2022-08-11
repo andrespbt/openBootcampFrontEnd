@@ -123,6 +123,10 @@
   border-bottom: solid 1px #ddd;
 }
 
+.navbar-toggler {
+  display: none;
+}
+
 .logo img {
   max-width: 7rem;
 }
@@ -374,6 +378,195 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+@media (max-width: 575px) {
+  .main-menu {
+    display: none;
+  }
+  .nav {
+    justify-content: space-around;
+  }
+  .sec-home {
+    padding: 0;
+    gap: 2rem;
+  }
+  .sec-home h2 {
+    font-size: 3.5rem;
+  }
+  .sec-call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 2rem;
+  }
+  .sec-call-to-action img {
+    display: none;
+  }
+  .sec-call-to-action .input-firstSection {
+    text-align: left;
+    margin: 2rem 0;
+  }
+  .sec-call-to-action .input-firstSection input {
+    max-width: 150px;
+  }
+  .sec-call-to-action .input-firstSection button {
+    max-width: 100px;
+    padding: 0.25rem 0.5rem;
+  }
+  .cta-left {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .sec-features {
+    margin: 0 1rem;
+  }
+  .features-header {
+    margin: 1rem 1rem;
+  }
+  .features-body {
+    flex-direction: column;
+  }
+  .features-body img {
+    display: none;
+  }
+  .features-body ul {
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .features-body ul li:not(:nth-child(1)) {
+    margin: 2rem 0;
+  }
+  .features-body ul p {
+    padding: 0;
+    margin: 0;
+  }
+  #elemento1::before {
+    content: url(../assets/statistic-icon.svg);
+    position: unset;
+  }
+  #elemento2::before {
+    content: url(../assets/calendar-icon.svg);
+    position: unset;
+  }
+  #elemento3::before {
+    content: url(../assets/mobile-icon.svg);
+    position: unset;
+  }
+  .sec-benefits {
+    margin: 2rem 1rem;
+    gap: 0;
+  }
+  .benefits-body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .benefits-body article.feature {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 1rem;
+  }
+  .benefits-body article.feature i {
+    margin: 0;
+  }
+  .benefits-body article.feature .description {
+    height: unset;
+  }
+  .benefits-body article.feature .description p {
+    margin: 0;
+  }
+  .benefits-body article.feature .description a {
+    margin: 0;
+  }
+  .benefits-body article.feature .cta {
+    margin: 1rem 0;
+  }
+  .sec-kpis {
+    max-height: 150px;
+  }
+  .sec-kpis div .kpis-number {
+    font-size: 2rem;
+  }
+  .sec-kpis div .kpis-description {
+    font-size: 0.6rem;
+  }
+  .sec-onboarding {
+    margin: 1rem 1rem;
+  }
+  #fntawesome-icon {
+    width: 100%;
+    position: relative;
+  }
+  .feature:nth-child(3) {
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-solid {
+    width: 100%;
+    margin: auto;
+  }
+  .feature .description .title {
+    font-size: 1.2rem;
+  }
+  .sec-footer-cta {
+    padding: 2rem;
+  }
+  .sec-footer-cta img {
+    display: none;
+  }
+  .sec-footer-cta .footer-text {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec-footer-cta .footer-text h3 {
+    text-align: center;
+  }
+  .sec-footer-cta .footer-text p {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) and (min-width: 576px) {
+  .nav {
+    justify-content: space-evenly;
+  }
+  .sec-home {
+    padding: 0;
+    margin: 5rem 3rem 2rem;
+  }
+  .sec-home .cta-left {
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+  .sec-home .cta-left input {
+    max-width: 200px;
+  }
+  .features-body {
+    margin: 6rem 1rem;
+  }
+  .features-body img {
+    max-width: 50%;
+  }
+  .features-body ul {
+    margin-left: 1.2rem;
+  }
+  .feature {
+    gap: 2rem;
+    max-width: 40%;
+  }
+  #footer-image {
+    max-width: 400px;
+  }
+  .sec-footer-cta .footer-text {
+    margin: 0 50% 0 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
