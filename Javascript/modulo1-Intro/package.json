@@ -1,0 +1,12 @@
+{
+  "name": "primer_proyecto",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de Javascript con node en openBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Poblete",
+  "license": "ISC"
+}
